@@ -2,12 +2,12 @@
 AA 2017/2018<br>
 University of Verona (Italy)
 
-# AUTORI
+AUTORI
   Cocco Paolo 
   Meneghetti Simone 
 
 
-![immagine1]()
+![immagine1](https://github.com/Paolococco94/homework3/blob/master/immagini/immagine1.png)
 
 #DESCRIZIONE HOMEWORK
 Homework 3 è composto da 4 parti
@@ -19,13 +19,13 @@ Homework 3 è composto da 4 parti
 	Parte 4: clustering dei punti contenuti nella point cloud generata al punto 3
 
 
-#PARTE 1
+PARTE 1
 	
 	Si installi il software ORB_SLAM2 contenuto nel repository
         Il link: https://github.com/raulmur/ORB_SLAM2
         con compilazione ROS
 
-#PARTE 2
+PARTE 2
 
 	Processare la rosbag V1_01_easy.bag i seguenti comandi utilizzando tre terminali 
 
@@ -34,11 +34,11 @@ Homework 3 è composto da 4 parti
 	$ rosbag play --pause V1_01_easy.bag /cam0/image_raw:=/camera/left/image_raw /cam1/image_raw:=/camera/right/image_raw
 	
 	Ecco il risultato:
-	![immagine2]()
-	![immagine3]()
-	![immagine4]()
+![immagine2](https://github.com/Paolococco94/homework3/blob/master/immagini/immagine2.png)
+![immagine3](https://github.com/Paolococco94/homework3/blob/master/immagini/immagine3.png)
+![immagine4](https://github.com/Paolococco94/homework3/blob/master/immagini/immagine4.png)
 
-#PARTE 3
+PARTE 3
 	
 	Per la realizzazione della point cloud, sono stati modificati 3 file contenuti in ORB_SLAM2 (System.cc - System.h - ros_stereo.cc)
 	E' stata implementata la funzione  " void SavePointCloud(const string &file); " la quale:
@@ -56,9 +56,10 @@ Homework 3 è composto da 4 parti
     }
 
 	Ecco il risultato:
-	![immagine5]()
 
-#PARTE 4
+![immagine5](https://github.com/Paolococco94/homework3/blob/master/immagini/immagine5.png)
+
+PARTE 4
 	
 	La clusterizzazione dei punti della point cloud generata è effettuata tramite il clustering.cpp
 	Settando i valori 
@@ -74,7 +75,8 @@ Homework 3 è composto da 4 parti
 	  
 
 	Ecco risultato finale:
-	![immagine6]()
+
+![immagine6](https://github.com/Paolococco94/homework3/blob/master/immagini/immagine6.png)
 
 
 
