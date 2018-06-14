@@ -29,7 +29,8 @@ PARTE 1
         con compilazione ROS
 
 PARTE 2
-
+	Dopo aver istallato la libreria ORB_SLAM2, procedere al processamento della rosbag V1_01_easy.bag contenuta nell’EuRoC 		MAV Dataset scaricabile da
+	http://robotics.ethz.ch/~asl-datasets/ijrr_euroc_mav_dataset/vicon_room1/V1_01_easy/V1_01_easy.bag
 	Processare la rosbag V1_01_easy.bag i seguenti comandi utilizzando tre terminali 
 
 	$ roscore
