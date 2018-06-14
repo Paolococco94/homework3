@@ -122,9 +122,6 @@ public:
     std::vector<MapPoint*> GetTrackedMapPoints();
     std::vector<cv::KeyPoint> GetTrackedKeyPointsUn();
 
-    //Saves the PointCloud as pcd 
-    void SavePointCloud(const string &file);
-
 private:
 
     // Input sensor
