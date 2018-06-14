@@ -3,13 +3,16 @@ AA 2017/2018<br>
 University of Verona (Italy)
 
 AUTORI
+  
   Cocco Paolo 
+  
   Meneghetti Simone 
 
 
 ![immagine1](https://github.com/Paolococco94/homework3/blob/master/immagini/immagine1.png)
 
-#DESCRIZIONE HOMEWORK
+DESCRIZIONE HOMEWORK
+
 Homework 3 è composto da 4 parti
 
 	Parte 1: installazione di ORB_SLAM2
