@@ -35,7 +35,7 @@ PARTE 2
 
 	$ roscore
 	$ rosrun ORB_SLAM2 Stereo Vocabulary/ORBvoc.txt Examples/Stereo/EuRoC.yaml true
-	$ rosbag play --pause V1_01_easy.bag /cam0/image_raw:=/camera/left/image_raw /cam1/image_raw:=/camera/right/image_raw
+	$ rosbag play  V1_01_easy.bag /cam0/image_raw:=/camera/left/image_raw /cam1/image_raw:=/camera/right/image_raw
 	
 	Ecco il risultato:
 ![immagine2](https://github.com/Paolococco94/homework3/blob/master/immagini/immagine2.png)
